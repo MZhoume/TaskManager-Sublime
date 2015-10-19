@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tools",
+    "children": [
+      {
+        "id": "task-manager",
+        "caption": "Run Tasks",
+        "command": "run_tasks"
+      }
+    ]
+  }
+]
