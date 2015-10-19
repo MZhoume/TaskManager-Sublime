@@ -1,8 +1,0 @@
-{
-	"dependencies": [],
-	"url": "https://github.com/zmLGBBM/TaskManager-Sublime",
-	"sublime_text": ">=3000",
-	"version": "0.0.1",
-	"platforms": ["*"],
-	"description": "Run tasks from one stroke!"
-}
