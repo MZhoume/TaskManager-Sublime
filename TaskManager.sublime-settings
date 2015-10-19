@@ -1,0 +1,54 @@
+{
+	// This is built-in tasks
+	// please use "user-tasks" (below) to extend task list
+	// PS: in sublime-project file, use "proj-tasks" node
+	"builtin-tasks":
+	[
+		{
+			"caption": "Show Console",
+			"command": "show_panel",
+			"args": {
+				"panel": "console"
+			},
+			"sublime-command": true
+		},
+		{
+			"caption": "Hide Console",
+			"command": "hide_panel",
+			"args": {
+				"panel": "console"
+			},
+			"sublime-command": true
+		}
+	],
+
+	// "user-tasks" node is for `TaskManager User Settings` to extend tasks list
+	//
+	// >>> Sublime commands:
+	// >>> {
+	// >>> 	"caption": "The command's caption to show in list",
+	// >>> 	"command": "sublime command to run",
+	// >>> 	"args": {
+	// >>> 		"arguments": "for command"
+	// >>> 	},
+	// >>> 	"sublime-command": true // set sublime-command to true
+	// >>> }
+	//
+	// >>> Non-Sublime commands:
+	// >>> {
+	// >>> 	"caption": "The command's caption to show in list",
+	// >>> 	"command": "system command or applications to run (absolute path needed)",
+	// >>> 	"args": "arguments to pass to commands",
+	// >>> 	"sublime-command": false // set sublime-command to false
+	// >>> },
+	"user-tasks":
+	[],
+
+	// "proj-tasks" node is for `sublime-project` file to extend tasks list
+	//
+	// "proj-tasks":
+	// [],
+
+	// encoding for decode command output (non-sublime commands)
+	"encoding": "utf-8"
+}
